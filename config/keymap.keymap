@@ -39,11 +39,11 @@
 
         FUNCTION_LAYER {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                             &kp F6   &kp F7          &kp F8          &kp F9           &kp F10           &trans
-&trans  &trans  &trans  &trans  &trans  &trans                             &kp F11  &kp F12         &kp UP_ARROW    &trans           &kp MINUS         &kp EQUAL
-&trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_UP                    &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN  &trans  &trans  &trans   &mkp LCLK       &mkp RCLK       &mkp MCLK        &trans            &trans
-&trans  &trans  &trans  &trans  &trans  &trans             &trans  &trans  &trans   &trans          &trans          &trans           &trans            &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                                &kp F6   &kp F7          &kp F8          &kp F9           &kp F10           &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                &kp F11  &kp F12         &kp UP_ARROW    &trans           &kp MINUS         &kp EQUAL
+&trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_UP                       &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans  &trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN  &trans  &kp GRAVE  &trans   &mkp LCLK       &mkp RCLK       &mkp MCLK        &trans            &trans
+&trans  &trans  &trans  &trans  &trans  &trans             &trans  &trans     &trans   &trans          &trans          &trans           &trans            &trans
             >;
         };
 
@@ -64,6 +64,16 @@
 &trans  &trans        &trans        &trans        &trans        &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &trans        &trans        &trans        &bootloader  &bootloader  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &trans        &trans        &trans        &trans       &trans       &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
